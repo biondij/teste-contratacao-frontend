@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# Teste para contratação de desenvolvedor(a) Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Cenário
 
-## Available Scripts
+Um novo cliente da Target Software deseja criar um dashboard para apresentação dos resultados de algumas áreas do ramo de vendas de canetas e lápis da sua empresa. Ela espera que o sistemas que irá apresentar os dashboard contemple:
 
-In the project directory, you can run:
+- Tela de login.
+- 2 (dois) modelos de dashboard de visualização de informações:
+  - Enfase maior nos números;
+  - Poucos gráficos;
+  - Placar de vendedores no Brasil;
+  - Total de vendas por estado do Brasil;
+  - Total de vendas por tipo de produto;
+- Menu de acesso para navegar entre as telas.
+- Tela de cadastro de usuário (CRUD).
 
-### `npm start`
+### Protótipação
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Desenvolver o protótipo acima usando a ferramenta Figma ou outra similar;
+- Não há requisitos em cores ou padrões;
+- Exemplos para inspirações:
+  - https://www.figma.com/community/file/1198634807196229163
+  - https://www.figma.com/community/file/1198379247621023111
+  - https://www.figma.com/community/file/1077388176708661383
+  - https://www.figma.com/community/file/1170258353169277426
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Projeto frontend
 
-### `npm test`
+- Criar o front-end utilizando um framework de mercado (Angular, Vue.js ou React);
+- Não é necessário autenticação ou comunicação com APIs;
+- Incluir pelo menos um exemplo de componentização;
+- Incluir uma biblioteca de estilização e componentes
+  - Bootstrap, Tailwind
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### O que será avaliado:
 
-### `npm run build`
+- Criatividade e padrões na prototipação;
+- Conceitos de UI e UX;
+- Estruturação e padrão utilizado no desenvolvimento;
+- Boas práticas aplicadas;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Diferenciais
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Componentização no Figma;
+- Uso das bibliotecas (Bootstrap, Tailwind);
+- Organização e componentização de código;
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Realize um `fork` e suba o código desenvolvido dentro deste repositório.
 
-### `npm run eject`
+Os itens propostos são sugestões de implementações e padrões que serão utilizados nos desenvolvimentos dos projetos nos clientes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Disponibilizar o código desenvolvido via GitHub (realize um `fork` deste repositório) para avaliação.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Para comunicação, caso não tenha recebido algum contato, envie para rh@targetsoftware.com.br sobre a finalização do teste com o link do repositório.
