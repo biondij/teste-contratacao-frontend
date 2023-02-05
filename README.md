@@ -52,3 +52,7 @@ Os itens propostos são sugestões de implementações e padrões que serão uti
 Disponibilizar o código desenvolvido via GitHub (realize um `fork` deste repositório) para avaliação.
 
 Para comunicação, caso não tenha recebido algum contato, envie para rh@targetsoftware.com.br sobre a finalização do teste com o link do repositório.
+
+## Anotações Julia 
+<p> Desenvolvido com React, usando 💅 styled components e 📍 react-router. </p>
+<p> Link do projeto no <a href="https://www.figma.com/file/LOMrwk0m9R8vqleCtu7HGT/Target?node-id=1%3A5&t=kepch75lj3egFYXV-0">figma</a>.</p>
