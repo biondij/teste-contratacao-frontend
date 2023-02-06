@@ -56,7 +56,7 @@ const NavLink = styled(Link)`
   color: white;
 
   @media (min-width: 45.5em) {
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
     padding-bottom: 0.75em;
   }
 `;
