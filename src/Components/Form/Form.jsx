@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import Button from "../Button/Button";
-import { Card } from "../Card/Card";
+import { MyCard } from "../Card/Card";
 
-export const FormSectionCard = styled(Card)`
+export const FormSectionCard = styled(MyCard)`
   display: flex;
   flex-direction: column;
   justify-content: center;

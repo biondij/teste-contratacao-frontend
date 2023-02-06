@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Card } from "../../Components/Card/Card";
+import { MyCard } from "../../Components/Card/Card";
 import ProgressCellContent from "../../Components/ProgressCellContent/ProgressCellContent";
 import Table, { TableCard } from "../../Components/Table/Table";
 import AdminPageLayout from "./AdminPageLayout";
@@ -102,7 +102,7 @@ export default function AdminPageIndex() {
   );
 }
 
-const BannerCard = styled(Card)`
+const BannerCard = styled(MyCard)`
   display: flex;
   gap: 1rem;
   padding: 2rem;

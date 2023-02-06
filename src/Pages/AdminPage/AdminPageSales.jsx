@@ -1,4 +1,4 @@
-import { Card } from "../../Components/Card/Card";
+import ProductsCard from "../../Components/ProductsCard/ProductsCard";
 import ProgressCellContent from "../../Components/ProgressCellContent/ProgressCellContent";
 import Table, { TableCard } from "../../Components/Table/Table";
 import AdminPageLayout from "./AdminPageLayout";
@@ -6,6 +6,7 @@ import AdminPageLayout from "./AdminPageLayout";
 export default function AdminPageSales() {
   return (
     <AdminPageLayout>
+      <ProductsCard />
       <TableCard>
         <Table
           columns={[

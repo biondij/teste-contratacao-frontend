@@ -5,7 +5,6 @@ export default function AdminPageLayout(props) {
   return (
     <LayoutAdminPage>
       <Navbar />
-
       <Main>{props.children}</Main>
     </LayoutAdminPage>
   );
@@ -26,4 +25,5 @@ const Main = styled.main`
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 `;

@@ -1,8 +1,8 @@
 import RcTable from "rc-table";
 import styled from "styled-components";
-import { Card } from "../Card/Card";
+import { MyCard } from "../Card/Card";
 
-export const TableCard = styled(Card)`
+export const TableCard = styled(MyCard)`
   align-items: center;
 `;
 
