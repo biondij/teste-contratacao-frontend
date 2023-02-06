@@ -11,7 +11,6 @@ export default function Table({ columns = [], data = [] }) {
 }
 
 const StyledRcTable = styled(RcTable)`
-  text-align: center;
   th,
   td {
     padding: 1rem;
