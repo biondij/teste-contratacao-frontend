@@ -27,11 +27,11 @@ const Nav = styled.nav`
   color: white;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 0.75rem;
 
   @media (min-width: 45.5em) {
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
   }
 
@@ -40,11 +40,12 @@ const Nav = styled.nav`
     display: flex;
     flex-direction: row;
     gap: 0.75rem;
+    align-items: center;
 
     @media (min-width: 45.5em) {
       flex-direction: column;
-      text-align: center;
       margin: 0;
+      text-align: center;
       padding: 0;
     }
   }

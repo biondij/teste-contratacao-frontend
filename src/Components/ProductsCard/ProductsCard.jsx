@@ -49,12 +49,13 @@ const CardContainer = styled(MyCard)`
 `;
 
 const EachProductCard = styled(MyCard)`
-  height: 15rem;
+  height: 17rem;
   width: 100%;
   padding: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 
   @media (min-width: 45.5em) {
     width: 12.5rem;
