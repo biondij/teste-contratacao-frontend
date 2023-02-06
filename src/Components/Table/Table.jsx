@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Card } from "../Card/Card";
 
 export const TableCard = styled(Card)`
-  flex: 1;
+  align-items: center;
 `;
 
 export default function Table({ columns = [], data = [] }) {
