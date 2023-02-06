@@ -46,11 +46,6 @@ const Nav = styled.nav`
       text-align: center;
       margin: 0;
       padding: 0;
-
-      &:nth-child(1) {
-        border-top: 1px solid white;
-        padding-top: 0.75em;
-      }
     }
   }
 `;

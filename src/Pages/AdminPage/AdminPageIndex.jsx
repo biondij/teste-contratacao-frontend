@@ -72,7 +72,7 @@ export default function AdminPageIndex() {
               name: "OutroUser",
               productName: "Lápis",
               sales: "23k uni.",
-              hadProgress: true,
+              hadProgress: false,
             },
             {
               position: 3,
@@ -86,7 +86,7 @@ export default function AdminPageIndex() {
               name: "MaisUmUser",
               productName: "Caneta",
               sales: "10k uni.",
-              hadProgress: true,
+              hadProgress: false,
             },
             {
               position: 5,

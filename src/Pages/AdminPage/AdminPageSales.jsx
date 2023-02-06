@@ -56,7 +56,7 @@ export default function AdminPageSales() {
               productPencil: "MeuUsuario",
               productPen: "Kit",
               productKit: "30k uni.",
-              hadProgress: true,
+              hadProgress: false,
             },
             {
               stateName: "PR",
