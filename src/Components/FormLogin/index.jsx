@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import { EmailField } from "../EmailField/EmailField";
 import {
   Form,
-  FormSection,
+  FormSectionCard,
   FormHeader,
   FormSubtitle,
   FormTitle,
@@ -13,7 +13,7 @@ import { PasswordField } from "../PasswordField/PasswordField";
 
 export default function FormLoginSection(props) {
   return (
-    <FormSection>
+    <FormSectionCard>
       <FormHeader>
         <FormTitle>Bem vindo!</FormTitle>
         <FormSubtitle>
@@ -27,6 +27,6 @@ export default function FormLoginSection(props) {
         <PasswordField />
         <Button type="submit">Login</Button>
       </Form>
-    </FormSection>
+    </FormSectionCard>
   );
 }

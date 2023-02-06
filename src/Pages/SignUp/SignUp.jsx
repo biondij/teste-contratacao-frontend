@@ -3,7 +3,7 @@ import Button from "../../Components/Button/Button";
 import { EmailField } from "../../Components/EmailField/EmailField";
 import {
   Form,
-  FormSection,
+  FormSectionCard,
   FormHeader,
   FormSubtitle,
   FormTitle,
@@ -16,7 +16,7 @@ import { UsernameField } from "../../Components/UsernameField/UsernameField";
 export default function SignUp() {
   return (
     <Main>
-      <FormSection>
+      <FormSectionCard>
         <FormHeader>
           <FormTitle>Bem vindo!</FormTitle>
           <FormSubtitle>
@@ -33,7 +33,7 @@ export default function SignUp() {
 
           <Button type="submit">Cadastre-se</Button>
         </Form>
-      </FormSection>
+      </FormSectionCard>
     </Main>
   );
 }
@@ -44,9 +44,14 @@ const Main = styled.main`
   justify-content: center;
   min-height: 100vh;
 
-  ${FormSection} {
+  ${FormSectionCard} {
     margin: auto;
     max-width: 30rem;
     width: 100%;
+    min-height: 100vh;
+
+    @media (min-width: 48em) {
+      min-height: unset;
+    }
   }
 `;

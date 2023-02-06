@@ -1,26 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './App.css';
-import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-import SignUp from './Pages/SignUp/SignUp';
-import Login from './Pages/Login';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./App.css";
+import reportWebVitals from "./reportWebVitals";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import SignUp from "./Pages/SignUp/SignUp";
+import Login from "./Pages/Login";
+import AdminPageLayout from "./Pages/AdminPage/AdminPageLayout";
+import AdminPageIndex from "./Pages/AdminPage/AdminPageIndex";
+import AdminPageSales from "./Pages/AdminPage/AdminPageSales";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login/>,
+    element: <Login />,
   },
   {
     path: "/signup",
-    element: <SignUp/>,
-  }
+    element: <SignUp />,
+  },
+  {
+    path: "/admin",
+    element: <AdminPageIndex />,
+  },
+  {
+    path: "admin/sales",
+    element: <AdminPageSales />,
+  },
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />
